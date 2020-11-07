@@ -9,3 +9,6 @@ controller_list:
   - name: fake_gripper_controller
     joints:
       - finger_joint
+initial:  # Define initial robot poses.
+  - group: arm
+    pose: zero
